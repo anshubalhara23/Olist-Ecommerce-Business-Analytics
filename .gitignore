@@ -1,0 +1,23 @@
+# Raw data — large and/or redistributed under Kaggle's own license;
+# link to the Kaggle source in README instead of committing it
+data/raw/
+data/cleaned/
+
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
