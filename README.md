@@ -5,6 +5,11 @@ This file is the top-level map of the project. Each notebook has its own detaile
 
 ---
 
+## Dataset
+[Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle) — ~100k orders, 2016–2018. Download and place the raw CSVs in `data/raw/` before running notebooks 01-03 (raw data isn't committed to this repo — see `.gitignore`).
+
+---
+
 ## 01–03 — Raw Audit, Cleaning, Validation
 
 - **Raw audit**: surfaced the structural facts every later notebook relies on — `customer_id` is a per-order surrogate key (`customer_unique_id` is the real person); some states (TO, AL, RR, AP) have no local seller presence at all ("seller-sparse states"); a handful of `not_defined`/`Broken Record` payment rows exist at ₹0 value.
